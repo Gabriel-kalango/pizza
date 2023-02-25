@@ -20,8 +20,9 @@ class TestConfig(Config):
     SQLALCHEMY_DATABASE_URI = 'sqlite://'
 
 class ProdConfig(Config):
-    pass
-
+    SQLALCHEMY_DATABASE_URI=config('DATABASE_URL')
+    DEBUG=False
+    SQLALCHEMY_TRACK_MODIFICATIONS=False
 
 config_dict = {
     'dev': DevConfig,
