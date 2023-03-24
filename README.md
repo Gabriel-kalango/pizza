@@ -1,12 +1,19 @@
-Pizza Delivery API using Flask RestX
-If you want to test the Api:https://kally-pizza-pp.onrender.com
+Pizza Delivery API using Flask RestX.
+
+
+If you want to test the Api:  https://kally-pizza-pp.onrender.com
+
+
 This is a simple Flask RestX API that manages pizza delivery data. The API allows users to perform CRUD operations on the pizza delivery data.
 
-Prerequisites
-Python 3.x
-Flask-RestX library
-Installation
-Clone the repository:https://github.com/Gabriel-kalango/pizza.git
+Prerequisites:
+
+1.Python 3.10
+2.Flask-RestX library
+3.virtual environment 
+
+
+Clone the repository: https://github.com/Gabriel-kalango/pizza.git
 
 
 Install dependencies:
